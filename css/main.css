@@ -1,6 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,700italic);
-@import url(extra.css);
-
 html {font-size: 1em;}
 
 body {
@@ -42,6 +39,10 @@ small, .font_small {font-size: 0.707em;}
 
 img { max-width: 100%; }
 
+/* extra css */
+table {
+  font-family: 'Inconsolata', monospace;
+}
 /* Table css */
 
 table {
@@ -236,6 +237,7 @@ table th[class*="col-"] {
   background-color: #ebcccc;
 }
 
+/* --- */
 
 .container {
   max-width: 600px;
